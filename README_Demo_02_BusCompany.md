@@ -45,7 +45,7 @@ La méthode affiche tout ce qu'elle fait au fur et à mesure, ce qui permet de b
         DECLARE nb_voyageurs_actuels INT;
         DECLARE nb_voyageurs_a_ajouter INT;
         DECLARE nb_voyageurs_en_trop INT;
-        DECLARE msg_erreur INT;
+        DECLARE msg_erreur VARCHAR(255);
 
         SET autocommit=0;
         START TRANSACTION;
