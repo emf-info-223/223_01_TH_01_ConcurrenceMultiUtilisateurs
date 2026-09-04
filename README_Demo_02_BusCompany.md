@@ -37,7 +37,9 @@ La méthode affiche tout ce qu'elle fait au fur et à mesure, ce qui permet de b
     DELIMITER $$
 
     CREATE PROCEDURE AjouterVoyageurs(
+       -- id du véhicule dans lequel les voyageurs doivent être ajoutés
         IN id_vehicule INT,
+       -- Liste des pk des voyageurs sous la forme "pk1,pk2,pk3"
         IN liste_voyageurs TEXT
     )
     BEGIN
